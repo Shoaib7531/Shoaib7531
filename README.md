@@ -86,7 +86,6 @@ def how_i_learn(problem):
 ## `~/currently`
 
 - 🌱 Diving into **Python**, one real problem at a time
-- 🛠️ Building my first project — a terminal-based **expense tracker**
 - 🧠 Training myself to explain *how* an answer came to be, not just state it
 - 🚀 Getting ready for whatever comes next — new languages, new challenges, no fear
 
