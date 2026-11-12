@@ -1,3 +1,4 @@
+<img width="1363" height="912" alt="Screenshot 2026-11-12 230409" src="https://github.com/user-attachments/assets/dd02e64b-c471-4ab9-9ea4-92360f1cec9b" />
 # SATARK.AI: Layer 5 UPI Intent & Persuasion Shield
 
 A client-side point-of-payment intervention prototype that decodes social engineering manipulation in the critical 30-second window before UPI PIN authorization.
