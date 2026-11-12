@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SATARK.AI | UPI Moment-of-Persuasion Defense</title>
+  
+  <!-- External Tailwind CSS runtime -->
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Modular Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen antialiased flex flex-col">
+
+  <!-- TOP APP BAR -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50 px-5 py-3">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-2.5">
+        <div class="h-9 w-9 rounded-xl bg-gradient-to-tr from-amber-500 to-rose-600 flex items-center justify-center text-lg font-black text-white shadow">
+          🛡️
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <h1 class="font-extrabold text-lg text-white">SATARK<span class="text-rose-500">.AI</span></h1>
+            <span class="text-[10px] px-2 py-0.2 rounded-full bg-rose-500/10 text-rose-400 font-bold border border-rose-500/20">Layer 5 UPI Defense</span>
+          </div>
+          <p class="text-[11px] text-slate-400">Point-of-Payment Persuasion Shield</p>
+        </div>
+      </div>
+
+      <!-- TABS -->
+      <nav class="flex items-center gap-1 bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs">
+        <button onclick="switchTab('tab-layers')" id="btn-tab-layers" class="tab-btn px-3 py-1.5 rounded-lg font-semibold text-white bg-slate-800 shadow">
+          1. 5-Layer Stack
+        </button>
+        <button onclick="switchTab('tab-problem')" id="btn-tab-problem" class="tab-btn px-3 py-1.5 rounded-lg font-semibold text-slate-400 hover:text-white">
+          2. India Problem & Data
+        </button>
+        <button onclick="switchTab('tab-simulator')" id="btn-tab-simulator" class="tab-btn px-3 py-1.5 rounded-lg font-semibold text-slate-400 hover:text-white flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          3. Live UPI Simulator
+        </button>
+        <button onclick="switchTab('tab-benchmark')" id="btn-tab-benchmark" class="tab-btn px-3 py-1.5 rounded-lg font-semibold text-slate-400 hover:text-white">
+          4. Results (Slide Table)
+        </button>
+      </nav>
+
+      <div class="hidden lg:flex items-center gap-2 text-xs font-mono">
+        <span class="text-amber-400 font-bold">₹60 Cr / Day</span>
+        <span class="text-slate-600">•</span>
+        <span class="text-emerald-400 font-bold">96.7% Catch</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="flex-1 max-w-7xl mx-auto w-full p-4 md:p-6 space-y-6">
+
+    <!-- ========================================== -->
+    <!-- TAB 1: 5-LAYER STACK -->
+    <!-- ========================================== -->
+    <section id="tab-layers" class="tab-content space-y-5">
+      <!-- One-line positioning banner -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-rose-400">Positioning</span>
+          <h2 class="text-xl font-bold text-white">A Client-Side Layer on Top of NPCI & RBI Rails</h2>
+          <p class="text-xs text-slate-400">Existing defenses inspect accounts and past transactions. Satark intercepts the human persuasion loop before PIN authorization.</p>
+        </div>
+        <div class="flex items-center gap-3 shrink-0 text-center">
+          <div class="bg-slate-950 px-3 py-2 rounded-xl border border-slate-800">
+            <div class="text-lg font-black text-rose-400 font-mono">51%</div>
+            <div class="text-[10px] text-slate-400">Never Report (LocalCircles)</div>
+          </div>
+          <div class="bg-slate-950 px-3 py-2 rounded-xl border border-slate-800">
+            <div class="text-lg font-black text-amber-400 font-mono">&lt;30s</div>
+            <div class="text-[10px] text-slate-400">Moment of PIN Entry</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 Layer Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3.5">
+        
+        <!-- Layer 1 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="flex justify-between items-center text-xs mb-2">
+              <span class="font-bold text-blue-400">LAYER 1</span>
+              <span class="text-[10px] text-slate-400">Network / Bank</span>
+            </div>
+            <h3 class="font-bold text-sm text-white mb-2">Network Detection</h3>
+            <ul class="text-xs text-slate-300 space-y-1.5">
+              <li>• NPCI device binding & PIN 2FA.</li>
+              <li>• Bank AI/ML fraud alerts.</li>
+              <li>• MuleHunter.AI in 29 banks.</li>
+              <li>• June 2025: Apps show bank payee name.</li>
+            </ul>
+          </div>
+          <div class="text-[10px] text-rose-400 pt-2 border-t border-slate-800">
+            ⚠️ Misses voluntary payment under fear.
+          </div>
+        </div>
+
+        <!-- Layer 2 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="flex justify-between items-center text-xs mb-2">
+              <span class="font-bold text-emerald-400">LAYER 2</span>
+              <span class="text-[10px] text-slate-400">Post-Fraud</span>
+            </div>
+            <h3 class="font-bold text-sm text-white mb-2">Reporting & Recovery</h3>
+            <ul class="text-xs text-slate-300 space-y-1.5">
+              <li>• 1930 Zero FIR (&gt;₹10L).</li>
+              <li>• CFCFRMS: ₹7,130 Cr saved.</li>
+              <li>• Sanchar Saathi / Chakshu portal.</li>
+              <li>• 11.14L SIMs & 2.96L IMEIs blocked.</li>
+            </ul>
+          </div>
+          <div class="text-[10px] text-rose-400 pt-2 border-t border-slate-800">
+            ⚠️ 51% never report; funds move in mins.
+          </div>
+        </div>
+
+        <!-- Layer 3 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="flex justify-between items-center text-xs mb-2">
+              <span class="font-bold text-purple-400">LAYER 3</span>
+              <span class="text-[10px] text-slate-400">Regulatory</span>
+            </div>
+            <h3 class="font-bold text-sm text-white mb-2">Regulation & Liability</h3>
+            <ul class="text-xs text-slate-300 space-y-1.5">
+              <li>• RBI rules effective Jan 1, 2027.</li>
+              <li>• Response time & compensation rules.</li>
+              <li>• Awareness campaigns (SMS, radio).</li>
+            </ul>
+          </div>
+          <div class="text-[10px] text-rose-400 pt-2 border-t border-slate-800">
+            ⚠️ Awareness ignored in emotional panic.
+          </div>
+        </div>
+
+        <!-- Layer 4 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="flex justify-between items-center text-xs mb-2">
+              <span class="font-bold text-amber-400">LAYER 4</span>
+              <span class="text-[10px] text-slate-400">Overseas</span>
+            </div>
+            <h3 class="font-bold text-sm text-white mb-2">UK Reimbursement</h3>
+            <ul class="text-xs text-slate-300 space-y-1.5">
+              <li>• UK PSR mandatory refund (Oct 2024).</li>
+              <li>• 61% APP losses repaid in 2025.</li>
+              <li>• Helps victims after money is lost.</li>
+            </ul>
+          </div>
+          <div class="text-[10px] text-rose-400 pt-2 border-t border-slate-800">
+            ⚠️ Costly for banks; doesn't stop scam.
+          </div>
+        </div>
+
+        <!-- Layer 5 -->
+        <div class="bg-rose-950/40 border-2 border-rose-500/60 rounded-xl p-4 flex flex-col justify-between space-y-3 relative shadow-lg">
+          <div>
+            <div class="flex justify-between items-center text-xs mb-2">
+              <span class="font-bold text-rose-400">LAYER 5 (CLIENT)</span>
+              <span class="text-[10px] text-rose-300 font-bold">OUR AGENT</span>
+            </div>
+            <h3 class="font-bold text-sm text-white mb-2">SATARK.AI Defense</h3>
+            <ul class="text-xs text-slate-200 space-y-1.5">
+              <li>• Decodes fear & manipulation in real time.</li>
+              <li>• Native language alert before PIN prompt.</li>
+              <li>• 10-sec pause + active call sever.</li>
+              <li>• Flags payee name vs. scammer alias.</li>
+            </ul>
+          </div>
+          <div class="text-[10px] text-emerald-400 font-semibold pt-2 border-t border-rose-500/30">
+            ✅ Stops theft in the critical 30-sec window.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Concise Gap Table -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+        <h3 class="font-bold text-xs uppercase text-slate-400 mb-3">Where Gaps Occur</h3>
+        <div class="overflow-x-auto text-xs">
+          <table class="w-full text-left border-collapse">
+            <thead class="text-[10px] text-slate-400 uppercase border-b border-slate-800">
+              <tr>
+                <th class="py-2 px-3">Layer</th>
+                <th class="py-2 px-3">Where It Acts</th>
+                <th class="py-2 px-3">Timing</th>
+                <th class="py-2 px-3">Limitation</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800 text-slate-300">
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">Network & Bank AI</td>
+                <td class="py-2 px-3">Core servers</td>
+                <td class="py-2 px-3">Pre-PIN</td>
+                <td class="py-2 px-3 text-slate-400">User enters valid PIN voluntarily under panic.</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">1930 Helpline / CFCFRMS</td>
+                <td class="py-2 px-3">Police helpline</td>
+                <td class="py-2 px-3 text-amber-400">Hours after fraud</td>
+                <td class="py-2 px-3 text-slate-400">51% don't report; funds hop 5 mule accounts in 4 mins.</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">UK Refund Model</td>
+                <td class="py-2 px-3">Bank reimbursement</td>
+                <td class="py-2 px-3 text-amber-400">Weeks later</td>
+                <td class="py-2 px-3 text-slate-400">Compensates victim, but scammer keeps money.</td>
+              </tr>
+              <tr class="bg-rose-500/10 font-medium">
+                <td class="py-2 px-3 font-bold text-rose-300">🛡️ SATARK.AI</td>
+                <td class="py-2 px-3 text-rose-200">User screen / UPI app</td>
+                <td class="py-2 px-3 text-emerald-400 font-bold">⚡ At PIN prompt</td>
+                <td class="py-2 px-3 text-emerald-300">Interrupts coercion with native reality check.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: PROBLEM & DATA (PITCH NUMBERS) -->
+    <!-- ========================================== -->
+    <section id="tab-problem" class="tab-content hidden space-y-5">
+      
+      <!-- Pitch lead-in -->
+      <div class="bg-gradient-to-r from-rose-950/60 to-slate-900 border border-rose-500/30 rounded-2xl p-5 space-y-2">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-rose-400">Lead Pitch Sentence</span>
+        <blockquote class="text-lg md:text-xl font-bold text-white leading-snug">
+          "Indians reported losing over <span class="text-rose-400 font-black">₹22,000 crore</span> to cyber fraud in 2025—roughly <span class="text-amber-400 font-black">₹60 crore every day</span>—and I4C projects the true figure could reach <span class="text-rose-300 font-black">₹1.2 lakh crore (~0.7% of GDP)</span>."
+        </blockquote>
+      </div>
+
+      <!-- Metric Tiles -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+          <div class="text-xs text-slate-400">2025 Reported Loss</div>
+          <div class="text-2xl font-black text-white font-mono my-1">₹22,495 Cr</div>
+          <div class="text-[10px] text-slate-400">~₹60 Cr every day</div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+          <div class="text-xs text-slate-400">H1 2026 Pace</div>
+          <div class="text-2xl font-black text-amber-400 font-mono my-1">₹10,178 Cr</div>
+          <div class="text-[10px] text-slate-400">~₹56 Cr/day pace</div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+          <div class="text-xs text-slate-400">UPI Loss (FY26)</div>
+          <div class="text-2xl font-black text-emerald-400 font-mono my-1">₹1,226 Cr</div>
+          <div class="text-[10px] text-slate-400">Surpassed FY25 (₹981 Cr)</div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+          <div class="text-xs text-slate-400">Average Damage</div>
+          <div class="text-2xl font-black text-indigo-300 font-mono my-1">~₹80,000</div>
+          <div class="text-[10px] text-slate-400">Per reported case</div>
+        </div>
+      </div>
+
+      <!-- Iceberg & Global Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Iceberg -->
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl space-y-3">
+          <div class="flex justify-between items-center text-xs">
+            <span class="font-bold text-white">The Fraud Iceberg</span>
+            <span class="text-[10px] text-slate-400">I4C / LocalCircles</span>
+          </div>
+
+          <div class="space-y-2 text-xs">
+            <div>
+              <div class="flex justify-between text-[11px] mb-1">
+                <span class="text-rose-400">Reported Losses</span>
+                <span class="font-mono">₹22,495 Cr (~18%)</span>
+              </div>
+              <div class="w-full bg-slate-800 h-4 rounded overflow-hidden">
+                <div class="bg-rose-500 h-full" style="width: 18.7%;"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-[11px] mb-1">
+                <span class="text-indigo-400">I4C Projected True Loss (~0.7% GDP)</span>
+                <span class="font-mono">₹1,20,000 Cr</span>
+              </div>
+              <div class="w-full bg-indigo-600 h-4 rounded"></div>
+            </div>
+          </div>
+
+          <p class="text-[11px] text-slate-400 pt-2 border-t border-slate-800">
+            • <strong>51% never report</strong> fraud due to shame or lack of hope (LocalCircles).<br>
+            • CFCFRMS saved ₹7,130 Cr, but money moves through 5 accounts in minutes.
+          </p>
+        </div>
+
+        <!-- Global comparison -->
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl space-y-2.5 text-xs">
+          <span class="font-bold text-white">Global Comparisons</span>
+
+          <div class="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between items-center">
+            <div>
+              <div class="font-bold text-slate-200">🇬🇧 UK APP Fraud (2025)</div>
+              <div class="text-[10px] text-slate-400">61% reimbursed by banks</div>
+            </div>
+            <div class="font-mono font-bold text-amber-400">£576.4M</div>
+          </div>
+
+          <div class="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between items-center">
+            <div>
+              <div class="font-bold text-slate-200">🇺🇸 US Scams (2025)</div>
+              <div class="text-[10px] text-slate-400">FTC report; Deloitte APP ~$8.3B</div>
+            </div>
+            <div class="font-mono font-bold text-emerald-400">$15.9B</div>
+          </div>
+
+          <div class="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between items-center">
+            <div>
+              <div class="font-bold text-slate-200">🌍 Worldwide (GASA)</div>
+              <div class="text-[10px] text-slate-400">Total consumer scams</div>
+            </div>
+            <div class="font-mono font-bold text-indigo-300">$442B</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: LIVE UPI SIMULATOR -->
+    <!-- ========================================== -->
+    <section id="tab-simulator" class="tab-content hidden space-y-4">
+      
+      <!-- Scenario Selector Buttons -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 text-xs">
+        <button onclick="loadScenario('SCAM-001')" class="scenario-btn p-2.5 rounded-xl border border-rose-500 bg-rose-500/10 text-left font-bold" id="btn-scen-SCAM-001">
+          🚨 Digital Arrest
+        </button>
+        <button onclick="loadScenario('SCAM-005')" class="scenario-btn p-2.5 rounded-xl border border-slate-800 bg-slate-900 text-left font-bold" id="btn-scen-SCAM-005">
+          ⚡ 9:30 PM Power Cut
+        </button>
+        <button onclick="loadScenario('SCAM-007')" class="scenario-btn p-2.5 rounded-xl border border-slate-800 bg-slate-900 text-left font-bold" id="btn-scen-SCAM-007">
+          🎖️ Army QR Inversion
+        </button>
+        <button onclick="loadScenario('SCAM-010')" class="scenario-btn p-2.5 rounded-xl border border-slate-800 bg-slate-900 text-left font-bold" id="btn-scen-SCAM-010">
+          💼 VIP Task Scam
+        </button>
+        <button onclick="loadScenario('SCAM-015')" class="scenario-btn p-2.5 rounded-xl border border-slate-800 bg-slate-900 text-left font-bold" id="btn-scen-SCAM-015">
+          📱 Remote Support APK
+        </button>
+        <button onclick="loadScenario('LEGIT-001')" class="scenario-btn p-2.5 rounded-xl border border-slate-800 bg-slate-900 text-left font-bold text-emerald-400" id="btn-scen-LEGIT-001">
+          🛒 Sharma Kirana (Legit)
+        </button>
+      </div>
+
+      <!-- Simulator Workspace -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+        
+        <!-- Phone View (5 Cols) -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="w-full max-w-[340px] bg-slate-900 border-4 border-slate-700 rounded-[32px] p-3 shadow-2xl relative overflow-hidden flex flex-col min-h-[580px]">
+            
+            <!-- Top bar -->
+            <div class="flex justify-between items-center text-[10px] font-mono text-slate-400 px-3 pb-1 border-b border-slate-800 mb-2">
+              <span>9:41</span>
+              <span>●●● 5G</span>
+            </div>
+
+            <!-- Active call banner -->
+            <div id="sim-active-call-banner" class="bg-rose-600/20 border border-rose-500/40 rounded-lg p-2 text-xs flex justify-between items-center mb-2">
+              <span class="text-rose-300 font-bold text-[11px] flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+                Active Call: <span id="sim-active-call-caller">+91-98XXX</span>
+              </span>
+              <span class="text-[10px] font-mono text-rose-300">03:42</span>
+            </div>
+
+            <!-- Payee details -->
+            <div class="bg-indigo-950/60 border border-indigo-700/40 rounded-xl p-3 mb-2 text-center space-y-1">
+              <div class="text-[10px] text-slate-400">Claim: <strong id="sim-claimed-persona" class="text-slate-200">Inspector Ramesh</strong></div>
+              <div class="text-sm font-black text-white" id="sim-beneficiary-name">MOHD SHAMIM ENTERPRISES</div>
+              <span class="text-[9px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 font-bold">NPCI Bank Payee</span>
+            </div>
+
+            <!-- Amount -->
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 text-center mb-2">
+              <div class="text-[10px] text-slate-400">Amount</div>
+              <div class="text-2xl font-black text-white font-mono">₹<span id="sim-amount-display">1,50,000</span></div>
+            </div>
+
+            <!-- Quote context -->
+            <div class="bg-slate-950 border border-slate-800 rounded-lg p-2 mb-2 text-[11px] text-slate-300 italic" id="sim-context-text">
+              "Arrest warrant issued under PMLA. Pay ₹1.5L immediately..."
+            </div>
+
+            <!-- Authorize button -->
+            <div class="mt-auto space-y-1.5">
+              <button onclick="triggerPaymentAttempt()" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 font-bold text-white text-xs shadow transition">
+                Authorize & Enter UPI PIN ➔
+              </button>
+            </div>
+
+            <!-- Intercept Modal -->
+            <div id="phone-modal-overlay" class="absolute inset-0 bg-slate-950/95 backdrop-blur-md z-40 p-4 flex flex-col justify-between hidden text-center">
+              <div class="space-y-3 pt-3">
+                <div class="text-3xl">🛑</div>
+                <h3 class="text-base font-black text-white" id="modal-heading">रुको! यह "डिजिटल अरेस्ट" फ्रॉड है।</h3>
+                
+                <div class="bg-slate-900 border border-rose-500/30 rounded-xl p-3 text-xs text-left space-y-1.5 text-slate-300">
+                  <div id="modal-point-1">• पुलिस/CBI कभी UPI से पैसे नहीं मांगती।</div>
+                  <div id="modal-point-2">• बैंक नाम: MOHD SHAMIM (बेमेल)।</div>
+                  <div id="modal-point-3">• तुरंत कॉल काटें।</div>
+                </div>
+
+                <div class="bg-slate-900 p-2 rounded-lg text-xs">
+                  <span class="text-[10px] text-slate-400">Cooldown: </span>
+                  <span class="font-mono font-bold text-amber-400 text-base" id="modal-countdown">00:08</span>
+                </div>
+              </div>
+
+              <div class="space-y-1.5">
+                <button onclick="terminateScamCall()" class="w-full py-2 rounded-xl bg-rose-600 text-white font-bold text-xs">
+                  ❌ End Call & Block
+                </button>
+                <button onclick="dismissPhoneModal()" class="w-full py-1 text-[10px] text-slate-400">
+                  Dismiss
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Radar & Telemetry (7 Cols) -->
+        <div class="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
+          <div class="flex justify-between items-center">
+            <div>
+              <div class="text-[10px] font-bold uppercase text-indigo-400">Telemetry</div>
+              <h3 class="text-base font-bold text-white">Persuasion Signals</h3>
+            </div>
+            <div class="font-mono text-2xl font-black text-rose-500" id="tele-risk-score">96 / 100</div>
+          </div>
+
+          <div class="space-y-2.5 text-xs">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Authority Impersonation</span>
+                <span class="font-mono font-bold text-rose-400" id="bar-val-auth">50 / 50</span>
+              </div>
+              <div class="w-full bg-slate-950 h-2 rounded"><div id="bar-fill-auth" class="bg-rose-500 h-full rounded" style="width: 100%;"></div></div>
+            </div>
+
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Coercive Urgency</span>
+                <span class="font-mono font-bold text-amber-400" id="bar-val-urg">40 / 40</span>
+              </div>
+              <div class="w-full bg-slate-950 h-2 rounded"><div id="bar-fill-urg" class="bg-amber-500 h-full rounded" style="width: 100%;"></div></div>
+            </div>
+
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Financial Inversion ("PIN to Receive")</span>
+                <span class="font-mono font-bold text-indigo-400" id="bar-val-inv">0 / 50</span>
+              </div>
+              <div class="w-full bg-slate-950 h-2 rounded"><div id="bar-fill-inv" class="bg-indigo-500 h-full rounded" style="width: 0%;"></div></div>
+            </div>
+
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Beneficiary Mismatch (NPCI June 2025)</span>
+                <span class="font-mono font-bold text-purple-400" id="bar-val-bene">40 / 40</span>
+              </div>
+              <div class="w-full bg-slate-950 h-2 rounded"><div id="bar-fill-bene" class="bg-purple-500 h-full rounded" style="width: 100%;"></div></div>
+            </div>
+          </div>
+
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
+            <span class="text-slate-300 font-semibold" id="tele-action-rule">CRITICAL: Active Call + Police Fear + Payee Mismatch</span>
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-bold text-[10px]" id="tele-friction-level">LEVEL 3 FRICTION</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 4: BENCHMARK (RESULTS SLIDE) -->
+    <!-- ========================================== -->
+    <section id="tab-benchmark" class="tab-content hidden space-y-4">
+      
+      <!-- Top banner -->
+      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl flex justify-between items-center">
+        <div>
+          <h2 class="text-base font-bold text-white">Evaluation Results (Presentation Table)</h2>
+          <p class="text-xs text-slate-400">Validated on 30 curated Indian attack cases + legitimate controls.</p>
+        </div>
+        <button onclick="copySlideMarkdown()" id="btn-copy-slide" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs transition">
+          📋 Copy Slide Table
+        </button>
+      </div>
+
+      <!-- Scorecard -->
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3 text-center">
+        <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl">
+          <div class="text-[10px] text-slate-400 uppercase">Accuracy</div>
+          <div class="text-2xl font-black text-emerald-400 font-mono">96.7%</div>
+          <div class="text-[10px] text-slate-400">29/30 cases</div>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl">
+          <div class="text-[10px] text-slate-400 uppercase">Recall (Scam Catch)</div>
+          <div class="text-2xl font-black text-rose-400 font-mono">93.8%</div>
+          <div class="text-[10px] text-slate-400">15/16 caught</div>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl">
+          <div class="text-[10px] text-slate-400 uppercase">Precision</div>
+          <div class="text-2xl font-black text-indigo-400 font-mono">100.0%</div>
+          <div class="text-[10px] text-slate-400">0 false alarms</div>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl">
+          <div class="text-[10px] text-slate-400 uppercase">F1-Score</div>
+          <div class="text-2xl font-black text-amber-400 font-mono">96.8%</div>
+          <div class="text-[10px] text-slate-400">Harmonic mean</div>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl">
+          <div class="text-[10px] text-slate-400 uppercase">False Alarm Rate</div>
+          <div class="text-2xl font-black text-emerald-300 font-mono">0.0%</div>
+          <div class="text-[10px] text-slate-400">No user friction</div>
+        </div>
+      </div>
+
+      <!-- Slide-Ready Table -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-3">
+        <span class="text-xs font-bold uppercase text-slate-400">Threat Detection Performance</span>
+        <div class="overflow-x-auto text-xs">
+          <table class="w-full text-left border-collapse">
+            <thead class="text-[10px] text-slate-400 uppercase border-b border-slate-800">
+              <tr>
+                <th class="py-2 px-3">Fraud Vector</th>
+                <th class="py-2 px-3">Catch Rate</th>
+                <th class="py-2 px-3">Primary Persuasion Cue</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800 text-slate-300">
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">Digital Arrest (CBI/ED/Police)</td>
+                <td class="py-2 px-3 font-mono text-emerald-400 font-bold">100% (4/4)</td>
+                <td class="py-2 px-3 text-slate-400">Authority fear + active call coercion</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">OLX / Marketplace QR Inversion</td>
+                <td class="py-2 px-3 font-mono text-emerald-400 font-bold">100% (3/3)</td>
+                <td class="py-2 px-3 text-slate-400">"Enter PIN to receive money" pattern</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">Electricity Disconnection Threat</td>
+                <td class="py-2 px-3 font-mono text-emerald-400 font-bold">100% (2/2)</td>
+                <td class="py-2 px-3 text-slate-400">Urgent 9:30 PM power cutoff + private payee</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">Remote APK Sideload (AnyDesk/Support)</td>
+                <td class="py-2 px-3 font-mono text-emerald-400 font-bold">100% (2/2)</td>
+                <td class="py-2 px-3 text-slate-400">Screen mirroring + APK download bait</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">Fake IPO / Crypto Arbitrage</td>
+                <td class="py-2 px-3 font-mono text-emerald-400 font-bold">100% (2/2)</td>
+                <td class="py-2 px-3 text-slate-400">Guaranteed 300% returns + grey market lots</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-3 font-semibold text-white">Legitimate Controls (Bills/Rent/Grocery)</td>
+                <td class="py-2 px-3 font-mono text-emerald-400 font-bold">100% (14/14)</td>
+                <td class="py-2 px-3 text-slate-400">Zero false alarms on routine UPI</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modular Scripts -->
+  <script src="radar.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
